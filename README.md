@@ -28,7 +28,7 @@ Clone this repo and run:
 red -c -r Lines.red
 ```
 
-Tested on macOS with Red 0.6.3 stable.
+Tested on macOS with Red 0.6.4 stable.
 
 Note this command should work on Windows and Mac. However, since GUI support is not available on Linux, This clone of lines is not supported for now.
 

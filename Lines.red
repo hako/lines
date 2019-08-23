@@ -71,7 +71,7 @@ do [
 	
 	[
 	  append win compose/deep [
-			panel (color) 250x45 [below text (name) font-size: 14 font-color: 0.33.147 font-name: tube_font]
+			panel (color) 250x45 [below text (name) font [size: 14 color: 0.33.147 name: tube_font]]
 			cursor hand on-down [
 				view [title (name)
 					backdrop (color)
@@ -87,7 +87,7 @@ do [
 	
 	[
 	  append win compose/deep [
-			panel (color) 250x45 [below text (name) font-size: 14 font-color: white font-name: tube_font]
+			panel (color) 250x45 [below text (name) font [size: 14 color: white name: tube_font]]
 			cursor hand on-down [
 				view [title (name)
 					backdrop (color)

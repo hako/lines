@@ -5,9 +5,6 @@ Red [
 	needs: 'View
 ]
 
-; JSON
-#include %JSON.red
-
 ; Font Name
 ; Should be Johnston or NJFont, I know. But if you want Johnston, 
 ; Install NJFont and change this name.
@@ -51,7 +48,7 @@ do [
 		]
 	]
 	
-	data: json/decode fetch-data
+	data: load-json fetch-data
 	data: data/lines
 	
 	append win [across]
